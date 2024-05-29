@@ -4,8 +4,8 @@ public class EjIndice {
 // String delimitadores = "[ˆa-zA-Z0-9áéíóúüÁÉÍÓÚÜ]+";
         String delimitadores = "[ .,:;\\-\\!\\¡\\¿\\?]+";
         Indice cp = new IndiceContador(); // seleccione la clase a utilizar
-// Indice cp = new IndiceLineas(); // seleccione la clase a utilizar
-// Indice cp = new IndicePosicionesEnLineas(); // seleccione la clase a utilizar
+//Indice cp = new IndiceLineas(); // seleccione la clase a utilizar
+ //Indice cp = new IndicePosicionesEnLineas(); // seleccione la clase a utilizar
         cp.agregarFrase("Guerra tenia una jarra y Parra tenia una perra, "
                 + "pero la perra de Parra rompio la jarra de Guerra.");
         cp.agregarFrase("Guerra pego con la porra a la perra de Parra. "

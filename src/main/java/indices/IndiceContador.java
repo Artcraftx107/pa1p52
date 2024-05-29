@@ -30,9 +30,4 @@ public class IndiceContador extends IndiceAbstracto{
             pw.println(entry.getKey()+" "+entry.getValue());
         }
     }
-
-    @Override
-    public void presentarIndiceConsola() {
-        //Ignorar
-    }
 }
